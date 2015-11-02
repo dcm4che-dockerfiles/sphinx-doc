@@ -6,6 +6,10 @@ to install the whole Latex bundle on your host machine.
 
 This is certainly a trivial way of using Docker, but there you go.
 
+## Docker Hub
+
+This image isn't yet published to docker hub so the following won't work, but I'm trying to push it up.
+
 ## Usage
 
 I've been using it like this.
