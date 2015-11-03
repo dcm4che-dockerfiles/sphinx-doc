@@ -75,18 +75,19 @@ fit, and at the end it will have created a new sphinx project within a folder
 called `docs` within your current folder.
 
 ```bash
-$ make html`
+$ make html
 ```
 
 As you'd imagine this command runs a separate make task within the container to
-generate HTML documentation from your RST source.
+generate HTML documentation from your RST source which can then be found in the
+`docs/\_build/html` folder.
 
 ```bash
 $ make pdf
 ```
 
 Similarly the above command runs the `latexpdf` task inside the container to
-generate PDF documentation.
+generate PDF documentation to `docs/\_build/latex`.
 
 ```bash
 $ make clean
