@@ -24,6 +24,7 @@ I've been using it like this.
 
         WORKDIR /doc
         ```
+
 2. Then I've been using it with the following minimal Makefile:
 
 ```makefile
