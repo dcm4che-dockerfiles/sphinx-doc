@@ -4,7 +4,7 @@ This is a simple little Docker image intended to allow reasonably easy
 generation of documentation using the Sphinx Documentation tool without having
 to install the whole Latex bundle on your host machine.
 
-This is certainly a trivial way of using Docker, but there you go.
+This is certainly a fairly trivial way of using Docker, but there you go.
 
 ## Usage
 
