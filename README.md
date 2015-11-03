@@ -6,22 +6,25 @@ to install the whole Latex bundle on your host machine.
 
 This is certainly a fairly trivial way of using Docker, but there you go.
 
+## Docker Hub
+
+This image isn't yet published to docker hub so the following won't work, but I'm trying to push it up.
+
 ## Usage
 
 I've been using it like this.
 
 1. Create a Dockerfile with the following contents:
 
-```dockerfile
-FROM umbrellium:sphinx-doc
-MAINTAINER Sam Mulube <sam@umbrellium.co.uk>
+        ```dockerfile
+        FROM umbrellium:sphinx-doc
+        MAINTAINER Sam Mulube <sam@umbrellium.co.uk>
 
-CMD ["/bin/bash"]
+        CMD ["/bin/bash"]
 
-WORKDIR /doc
-```
-
-3. Then I've been using it with the following minimal Makefile:
+        WORKDIR /doc
+        ```
+2. Then I've been using it with the following minimal Makefile:
 
 ```makefile
 # Makefile to generate documentation output
